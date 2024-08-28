@@ -1,0 +1,32 @@
+.addArticleCont{
+    height: 75vh;
+}
+#createmovieFormImage img{
+    border-radius: 15px;
+    width: 70%;
+    height: 300px;
+    object-fit: cover;
+}
+.inputFieldsCont .cbox{
+    width: 50% ;
+}
+.fileinput{
+    font-size: 1.1rem;
+}
+.customStepper{
+    max-width: 50rem;
+    margin: auto;
+}
+
+@media only screen and (max-width: 480px) {
+    .inputFieldsCont{
+        flex-direction: column;
+    }
+    .inputFieldsCont .cbox{
+        width: 100%;
+    }
+    .customStepper{
+        margin: 10px;
+    }
+    
+}

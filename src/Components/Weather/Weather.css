@@ -1,0 +1,10 @@
+.weather{
+    justify-content: left;
+}
+.weather .weather_icon{
+    width: 50px;
+    filter: drop-shadow(0px 0px 3px #daa520);
+}
+.weather .temp{
+    font-weight: bold;
+}

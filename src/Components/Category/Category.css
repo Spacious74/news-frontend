@@ -1,0 +1,29 @@
+.wrapper {
+  max-width: 70rem;
+  margin: auto;
+  padding: 0 10px;
+  gap: 20px;
+}
+.wrapper .sideAndMain {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sideAndMain .main_category {
+    flex: 1 1 68%;
+}
+.main_category .category_name {
+    font-size: 2rem;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+.wrapper .rcard {
+  flex: 1 1 30rem;
+}
+
+@media only screen and (max-width: 480px) {
+  .main_category .category_name {
+    font-size: 2rem;
+    padding: 20px;
+    margin-top: 0px;
+  }
+}

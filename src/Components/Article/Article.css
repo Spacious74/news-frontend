@@ -1,0 +1,41 @@
+.article-container {
+  max-width: 70rem;
+  margin: auto;
+  font-smooth: never;
+  padding: 0 10px;
+}
+.articleAndButtons{
+  display: flex;
+  flex-direction: column;
+}
+.article-container .article {
+  max-width: 45rem;
+}
+.article .headline {
+  font-size: 1.5rem;
+  text-decoration: none;
+  width: 100%;
+  display: block;
+  padding: 20px 0;
+  font-weight: bold;
+}
+.article .article_image {
+  width: 100%;
+  border-radius: 20px;
+}
+.article .text .para {
+  font-size: 1.2rem;
+  line-height: 1.9;
+}
+.text .subhead {
+  font-weight: bolder;
+  font-size: 1.4rem;
+}
+
+
+@media only screen and (max-width: 480px) {
+  .article-container {
+    width: 100%;
+    flex-direction: column;
+  }
+}

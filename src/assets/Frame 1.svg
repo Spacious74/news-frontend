@@ -1,0 +1,18 @@
+<svg width="140" height="140" viewBox="0 0 140 140" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Frame 1">
+<g id="Group 1">
+<g id="top">
+<path id="Line 1" d="M22 41H118" stroke="black" stroke-width="4" stroke-linecap="round"/>
+<circle id="Ellipse 1" cx="51" cy="41" r="7.5" fill="white" stroke="black" stroke-width="3"/>
+</g>
+<g id="middle">
+<path id="line2" d="M22 70H118" stroke="black" stroke-width="4" stroke-linecap="round"/>
+<circle id="ellipse2" cx="96" cy="70" r="7.5" fill="white" stroke="black" stroke-width="3"/>
+</g>
+<g id="bottom">
+<path id="line3" d="M22 99H118" stroke="black" stroke-width="4" stroke-linecap="round"/>
+<circle id="ellipse3" cx="42" cy="99" r="7.5" fill="white" stroke="black" stroke-width="3"/>
+</g>
+</g>
+</g>
+</svg>
